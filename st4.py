@@ -53,7 +53,7 @@ st.header("Chart - Precipitation")
 st.write("Select a city:")
 
 # Dropdown list of cities
-cities = ["Bulqize", "Durres", "Tirane"]  # Add more cities as needed
+cities = ["Bulqize","Durres","Tirane"]  # Add more cities as needed
 selected_city = st.selectbox("Select City", cities)
 
 # Load CSV data for the selected city
