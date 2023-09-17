@@ -10,6 +10,7 @@ import os
 image_folder_page1 = "C:\\Users\\35569\\Documents\\Developments\\St\\images1"
 image_folder_page2 = "C:\\Users\\35569\\Documents\\Developments\\St\\images2"
 
+
 def main():
     st.title("Imazhet & Paraqitjet Grafikore")
 import streamlit as st
@@ -21,11 +22,11 @@ st.sidebar.header('Dashboard')
     # Create a sidebar for navigation
 st.sidebar.title("Paneli ballor")
 # Sidebar page selection
-page = st.sidebar.radio("Select Page", ["Page 1", "Page 2"])
+page = st.sidebar.radio("Zgjidhni parametrin:", ["Reshjet","Temperaturat","Zjarret"])
 
-if page == "Page 1":
+if page == "Reshjet":
     # Page 1 content
-    st.title("Page 1")
+    st.title("Reshjet")
     images_page1 = os.listdir(image_folder_page1)
     images_page1.sort()
     selected_index = st.slider("Select Image", 0, len(images_page1) - 1, 0)

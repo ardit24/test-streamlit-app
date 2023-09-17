@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Path to the directory containing your PNG images
-image_folder = "C:\\Users\\35569\\Documents\\Developments\\St\\images1"
+image_folder = "C:\\Users\\35569\\Documents\\Developments\\St\\images2"
 images = os.listdir(image_folder)
 images.sort()  # Ensure images are in the correct order
 

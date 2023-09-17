@@ -6,13 +6,17 @@ import altair as alt
 
 # Define folder paths for images and CSVs for each page
 page_data = {
-    "Page 1": {
+    "Reshjet": {
         "image_folder": "C:\\Users\\35569\\Documents\\Developments\\St\\images1",
         "csv_folder": "C:\\Users\\35569\\Documents\\Developments\\St\\csv1"
     },
-    "Page 2": {
+    "Temperaturat": {
         "image_folder": "C:\\Users\\35569\\Documents\\Developments\\St\\images2",
         "csv_folder": "C:\\Users\\35569\\Documents\\Developments\\St\\csv2"
+    },
+    "Zjarret": {
+        "image_folder": "C:\\Users\\35569\\Documents\\Developments\\St\\images3",
+        "csv": "C:\\Users\\35569\\Documents\\Developments\\St\\csv3",
     }
 }
 
